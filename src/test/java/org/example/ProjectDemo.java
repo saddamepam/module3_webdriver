@@ -12,7 +12,7 @@ public class ProjectDemo {
     @Test
     public  void pasteBin() {
         //System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Selenium-Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://pastebin.com/");
